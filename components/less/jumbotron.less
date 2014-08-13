@@ -1,0 +1,57 @@
+//
+// Jumbotron
+// --------------------------------------------------
+
+
+.jumbotron {
+    background-color: none;
+    background-image: url(../img/topoftheworld.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+  h1,
+  .h1 {
+    color: @jumbotron-heading-color;
+    font-family: 'Fjalla One', sans-serif;
+    margin-bottom: 2px;
+  }
+  p {
+    margin-bottom: (@jumbotron-padding / 2);
+    font-size: 28px;
+    font-weight: 200;
+    color: @jumbotron-paragraph-color;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .btn-lg{
+  display: block;
+  margin: 0 auto;
+  }
+
+  .container & {
+    border-radius: @border-radius-large; // Only round corners at higher resolutions if contained in a container
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: @screen-sm-min) {
+    padding-top:    (@jumbotron-padding * 1.6);
+    padding-bottom: (@jumbotron-padding * 1.6);
+
+    .container & {
+      padding-left:  (@jumbotron-padding * 2);
+      padding-right: (@jumbotron-padding * 2);
+    }
+
+    h1,
+    .h1 {
+      font-size: 110px;
+      text-align: center;
+    }
+  }
+}
+

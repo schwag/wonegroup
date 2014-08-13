@@ -1,0 +1,238 @@
+/**
+  *
+  *	Style sheet for MyriadCore website
+  *	
+  *	This sheet is to be used in conjunction with the current style sheet and is only a FIX
+  *
+  *	Author - Kevin James Phillips For MyriadCore
+  *
+  *
+  **/
+
+nav {height:50px; overflow:visible;}
+
+.navbar-inverse {background-color:#ffffff; opacity:1 !important;}
+
+.navbar-collapse {pointer-events: none;}
+
+nav .navbar-header {width:253px; height:114px; background-color: transparent; border-bottom:4px solid #e57d04; border-top:none; border-bottom-right-radius:1em; background-image:linear-gradient(to bottom, rgba(34,34,34, 0), rgba(34,34,34, .9) 100%);}
+
+.columns-bg {
+  background-image:
+    linear-gradient(
+      to bottom, 
+      rgba(34,34,34, 0),
+      rgba(34,34,34, 0) 50px,
+      rgba(34,34,34, .9) 50px
+    ) !important;
+}
+
+nav .phoneSection {border:none; background-color:transparent;}
+
+nav .phoneSection a {display:inline-block; padding:.3em .7em .4em; border-radius:3px; background-color:#e57d04; vertical-align:middle; text-decoration:none; color:#fff; font-weight:400; border:none; box-sizing:border-box;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
+}
+
+nav .phoneSection a:hover {background-color:rgba(54,54,54,.75); border:1px solid #fff;}
+
+/* - Colors - */
+
+.mc-grn-txt {color:#5BA73B;}
+
+h2 {font-weight:600; color:#4C4C4C  !important;}
+
+{color:#4F6382;}
+
+#main-nav-mc li a {background-color:#4B4B4B;}
+
+#take-me-home {padding-right: 2.2em !important;}
+
+#main-nav-mc li a:hover, #main-blog-link li a:hover {background-color:#B96502; color:#333;}
+
+.down-arw-btn {display:inline-block; position:relative; width:2em; height:2em; background:#4c4c4c; text-align:center; border-radius:1em; border:3px solid #fff; box-sizing:border-box; overflow:hidden; vertical-align:middle; line-height:2em;  margin-right:1.5em;}
+
+.dwn-inside {display:inline-block; color:#fff; position:absolute; top:8px; left:8px;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
+}
+
+a#down-mc-btn:hover, a#down-mc-btn {text-decoration:none;}
+
+a#down-mc-btn:hover > .down-arw-btn > .dwn-inside {top:48px;}
+
+.btn-wrap-mc {color:#e57d04;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
+}
+
+.ggl-sscrl {margin:1.5rem auto 0; float:none;}
+
+.hme-sscrl {margin:5rem auto 0; float:none;}
+
+nav ul li a {pointer-events: auto;}
+
+#main-nav-mc li a:hover > .btn-wrap-mc, .navbar-right li a:hover > .btn-wrap-mc {color:#fff;}
+
+#main-nav-mc li {border-right:1px solid #333;}
+
+.jumbotron {background-image: url("../img/banner_wonegroup.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 600px;}
+
+.ecommerceJumbotron {
+  background-image: url("../img/banner_ecommerce-mc.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 600px;}
+  
+.googleJumbotron {background-image: url("../img/banner_moneyshot.jpg"); background-position: center center; background-repeat: no-repeat; background-size: cover; height: 600px;}
+
+p {color:#333 !important;}
+
+.acord-minus-me:after { color: #007fc3; content: "\e082" !important; float: left; font-family: 'Glyphicons Halflings'; font-size: 25px; padding-right: 15px;}
+
+.mc-home #take-me-home, .mc-google #popGoogle, .mc-ecom #popEcommerce {background-color:#e57d04;}
+
+.mc-home #take-me-home span, .mc-google #popGoogle span, .mc-ecom #popEcommerce span {color:#fff;}
+
+.mc-dsktop {display:block !important;}
+
+.mc-mobile {display:none !important;}
+
+.mc-bio-btn:before {content:"Bio";}
+
+.mc-bio-btn {display:inline-block; padding:.5em 3em; background-color:#555; color:#fff; border-radius:6px;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
+}
+
+.mc-bio-btn:hover {text-decoration:none; background-color:#5ba73b; color:#fff;}
+
+/* go to top btn */
+
+.mc-go-to-top {position:fixed; bottom:3em; right:3em; padding:2.4em; background-color: transparent; color:#fff; font-weight:600; background-image:url(../img/back-to-top.png); background-position:center center; background-size:contain; opacity:.7; display:none}
+
+.mc-go-to-top:hover {text-decoration:none; opacity:1;}
+
+/***************************New Styles*******************************/
+
+
+.navLogo img {
+  margin-top: 8px;
+  margin-left: 45px;
+}
+.btn-success {
+  color: #fff;
+  background-color: #e57d04;
+  border-color: #4c4c4c;
+}
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #B96502;
+  border-color: #4c4c4c;
+}
+.jumbotron h1 {
+  font-size: 103px;
+  margin-top: 79px;
+}
+.popover-content {
+  padding: 9px 14px;
+  width: 172px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #101010;
+  margin-right: 200px;
+}
+.navbar-inverse .navbar-nav.navbar-right a{
+  color: #e57d04;
+}
+
+/* - @Media Mobile Styles - */
+
+@media only screen and (max-width: 768px) {
+	
+/*nav .phoneSection {display:none;}*/
+
+.phoneSection {position:relative; margin:0 0 .5em 1em; opacity: 0.8; top: 0; width: 230px;}
+	
+nav .navbar-header {width:100%; height:auto; border-radius:none; border:none; border-bottom-right-radius:0;}
+
+.navbar-collapse ul {margin-top:0px; margin-bottom:0px; background-color:#4B4B4B;}
+
+.popover {display:none !important;}
+
+.mc-dsktop {display:none  !important;}
+
+.mc-mobile {display:block !important;}
+
+.navbar-collapse li a:hover {background-color:#5cb85c !important;}
+
+
+}
+
+
+@media only screen and (max-width: 640px) and (min-width: 520px) {
+
+.ggl-sscrl {width:64%;}	
+
+.navbar-collapse {position: relative;}
+
+}
+
+
+@media only screen and (max-width: 640px){
+
+.jumbotron {height:360px;}
+
+.jumbotron h1 {margin-top: 60px;}
+
+.hme-sscrl {margin-top: 20px;}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+nav .navbar-header {width:100%; position:fixed; border-radius:none; border:none; border-bottom-right-radius:0;}
+
+.navbar-collapse {position: relative; margin-top:103px;}
+
+.jumbotron h1 {margin-top: 90px;}
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 361px) {
+
+.bannerBox h1 {font-size:30px;}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+/*.jumbotron h1 {margin-top: 110px;}*/
+
+.mc-home .hme-sscrl {margin-top: 60px;}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+.bannerBox h1 {font-size:30px;}
+
+.bannerBox .bannerPar h4 {font-size:14px;}
+
+.mc-home .hme-sscrl {margin-top: 78px;}
+
+}

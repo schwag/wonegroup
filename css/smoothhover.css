@@ -1,0 +1,49 @@
+/*body {
+    height: 6000px;
+    font-family: Helvetica, Arial;
+}
+
+#top-menu {
+    position: fixed;
+    z-index: 1;
+    background: white;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#top-menu li {
+    float: left;
+}
+
+#top-menu a {
+    display: block;
+    padding: 5px 25px 7px 25px;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    transition: 1s all ease;
+    border-top: 3px solid white;
+    color: #666;
+    text-decoration: none;
+}
+
+#top-menu a:hover {
+    color: #000;
+}*/
+
+
+
+#about {
+
+    top: 400px;
+}
+
+#campaigntypes {
+
+    top: 600px;
+}
+
+#contact {
+
+    top: 1200px;
+}
