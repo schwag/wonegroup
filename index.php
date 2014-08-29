@@ -65,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
                                 <div class="col-sm-4 smallHeading">
                                     <img src="img/want_to_sell_better.png" alt="Want to Sell Better">
-                                    <p>WANT TO SELL BETTER</p>
+                                    <p class="swing">WANT TO SELL BETTER</p>
                                 </div>
                             </div>
                     </div>

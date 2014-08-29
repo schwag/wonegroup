@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="css/normalize.css">       
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/smoothhover.css">
+        <link rel="stylesheet" href="css/animate.css">
         
         <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
